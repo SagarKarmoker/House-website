@@ -18,6 +18,7 @@
                         "secondary-color": "rgba(171, 239, 95, 0.5)",
                         "bg-primary": "#f6f6f6",
                         "bg-secondary": "#f4f4f4",
+                        "bg-footer": "#1C1C1C",
                     },
                     backgroundImage: {
                         'contact-bg': "url('/assets/bg.jpg')",
@@ -415,13 +416,34 @@
                     <input type="text" placeholder="Phone Number*" class="py-8 rounded-full input input-bordered w-full" required/>
                     <input type="text" placeholder="Email Address*" class="py-8 rounded-full input input-bordered w-full" required/>
                     <textarea placeholder="Message*" class="lg:col-span-2 textarea textarea-bordered w-full rounded-2xl" rows="10" required></textarea>
-                    <button class="btn bg-primary-color rounded-full text-xl lg:col-span-2">Book Consult <img
+                    <button class="btn bg-primary-color rounded-full text-xl lg:col-span-2 font-bold">Send Mail<img
                         src="assets/arrow-up-right-01.png" alt="" /></button>
                 </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="bg-bg-footer">
+        <section class="md:container mx-auto px-5 text-white py-20 space-y-5">
+            <div class="flex justify-center gap-2">
+                <img src="assets/logo.png" alt="" />
+                <a class="font-bold text-2xl">Rinterio</a>
+            </div>
+            <p class="text-center lg:px-60 mt-5 text-gray-500">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+            <ul class="grid grid-cols-1 lg:grid-cols-5 space-y-4 lg:gap-10 lg:mx-60">
+                <li class="text-center">Home</li>
+                <li class="text-center">Services</li>
+                <li class="text-center">Portfolio</li>
+                <li class="text-center">Blogs</li>
+                <li class="text-center">Contact Us</li>
+            </ul>
+            <div class="flex justify-center">
+                <a class="btn bg-primary-color rounded-full text-xl">Book Consult<img
+                    src="assets/arrow-up-right-01.png" alt="" /></a>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
